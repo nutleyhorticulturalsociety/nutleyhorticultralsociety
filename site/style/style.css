@@ -4,22 +4,24 @@ body {
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   line-height: 1.5em;
   color:rgb(47, 71, 41);
-  background-color: rgb(21, 46, 39);
+  /*background-color: rgb(21, 46, 39);*/
 }
 
 #header {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b4df5b+0,559b3f+13,b4df5b+37,b4df5b+57,b4df5b+76,b4df5b+100 */
-  background: #b4df5b; /* Old browsers */
-  background: -moz-linear-gradient(top,  #b4df5b 0%, #559b3f 13%, #b4df5b 37%, #b4df5b 57%, #b4df5b 76%, #b4df5b 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top,  #b4df5b 0%,#559b3f 13%,#b4df5b 37%,#b4df5b 57%,#b4df5b 76%,#b4df5b 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom,  #b4df5b 0%,#559b3f 13%,#b4df5b 37%,#b4df5b 57%,#b4df5b 76%,#b4df5b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', endColorstr='#b4df5b',GradientType=0 ); /* IE6-9 */
-  height: 120px;
+  /*background: #b4df5b; /* Old browsers */
+  /*background: -moz-linear-gradient(top,  #b4df5b 0%, #559b3f 13%, #b4df5b 37%, #b4df5b 57%, #b4df5b 76%, #b4df5b 100%); /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(top,  #b4df5b 0%,#559b3f 13%,#b4df5b 37%,#b4df5b 57%,#b4df5b 76%,#b4df5b 100%); /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(to bottom,  #b4df5b 0%,#559b3f 13%,#b4df5b 37%,#b4df5b 57%,#b4df5b 76%,#b4df5b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4df5b', endColorstr='#b4df5b',GradientType=0 ); /* IE6-9 */
+  height: 60px;
   margin: 10px;
   border-radius: 10px;
+  background-color: rgb(212, 238, 173);
 }
 h1 {
   padding-top:20px;
+
 }
 
 #header h1 {
@@ -29,7 +31,7 @@ h1 {
 
 #tulips {
   width: 100%;
-  height: 70px;
+  height: 40px;
   background-image: url("../images/tulips.gif");
   background-repeat: repeat-x;;
 }
@@ -48,13 +50,14 @@ main {
   width: 240px;
   margin-left: -100%;
 
+
 }
 
 
 #footer {
   clear: left;
   width: 100%;
-  background-color: rgb(189, 218, 152);
+  /*background-color: rgb(189, 218, 152);*/
   text-align: center;
   padding: 4px 0;
   margin: 10px;
@@ -66,7 +69,7 @@ main {
 
 #content {
   margin-left: 240px; /* Same as 'nav' width*/
-  background-color: rgb(227, 238, 212);
+  /*background-color: rgb(227, 238, 212);*/
   border-radius:10px;
 
 }
@@ -79,8 +82,8 @@ main {
 
 
 nav  .innertube {
-  background: rgb(189, 218, 152);
-  border-radius: 10px;
+  /*background: rgb(189, 218, 152);*/
+
 
 }
 #content .innertube{
@@ -91,7 +94,9 @@ p {
   color: #555;
 }
 h3 {
-  margin-left: 40px;
+   margin-left: 40px;
+
+   background-repeat: no-repeat;
 }
 
 nav ul {
@@ -108,8 +113,8 @@ nav ul {
 }
 
  #flowerhead {
-   background-image:url('../images/sunflowerhead.gif');
-   width:32px;
+  background-image:url('../images/sunflowerhead.gif');
+  background-repeat: no-repeat;
    height: 32px;
  }
 
@@ -117,18 +122,21 @@ nav ul {
   padding-left:20px;
   padding-bottom:5px;
 
-
 }
 
 nav ul a {
-  color: white;
+  color: rgb(35, 68, 35);
   text-decoration: none;
-}
-nav ul a:hover {
 
 }
-nav ul li:hover{
-   background-color: rgb(23, 73, 37);
+nav ul a:hover {
+  background-color: rgb(179, 208, 183);
+
+
+}
+nav ul a:hover{
+   /*background-color: rgb(23, 73, 37);*/
+   color: rgb(42, 159, 40);
    border-radius: 10px;
 
 }
