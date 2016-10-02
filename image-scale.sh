@@ -27,6 +27,9 @@ do
 				#make the directory we are going to put the scaled images in
 				mkdir "site/images/${d##*/}/${subd##*/}"
 
+				#make the directory we are going to put the icons in
+				mkdir "site/images/${d##*/}/${subd##*/}/icon"
+
 				echo "making directory site/images/${d##*/}/${subd##*/}"
 				FILES="$subd/*"
 
@@ -55,9 +58,9 @@ do
 							then
 				  			echo "saving:$path$base_scaled.$ext\n"
 						
-				  			convert  -resize 90x90 "$f" "site/images/${d##*/}/${subd##*/}/icon/"$base"_90x90.$ext"
-				  			convert  -resize 600 "$f" "site/images/${d##*/}/${subd##*/}/"$base"_600.$ext"
-				  			echo "<a href='#'><img src='images/${d##*/}/${subd##*/}/"$base"_600.$ext' alt='${d##*/} ${subd##*/}' height='350' width='600' /></a>" >> image.html
+				  			convert  -resize 90x90 "$f" "site/images/${d##*/}/${subd##*/}/icon/"$file"_90x90.$ext"
+				  			convert  -resize 600 "$f" "site/images/${d##*/}/${subd##*/}/"$file"_600.$ext"
+				  			echo "<a href='#'><img src='images/${d##*/}/${subd##*/}/"$file"_600.$ext' alt='${d##*/} ${subd##*/}' height='350' width='600' /></a>" >> image.html
 						fi
 						
 					fi
