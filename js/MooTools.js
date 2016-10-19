@@ -6379,4 +6379,4 @@ window.addEvent('load', function(){
 	loaded = true;
 });
 
-})(window, document);
+})(window, document)
