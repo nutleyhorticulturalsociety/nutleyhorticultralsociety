@@ -5,6 +5,30 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<title>Nutley Horticultral Society</title>
 		<link rel="stylesheet" type="text/css" href="style/style.css"/>
+		<link rel="stylesheet" type="text/css" href="NivooSlider.css" />
+
+
+		<script type="text/javascript" src="js/MooTools-Core-1.6.0.js"></script>
+		<script type="text/javascript" src="js/NivooSlider.js"></script>
+
+		<script type="text/javascript">
+
+			window.addEvent('domready', function () {
+				// Click event for demo only
+				$$('a')[1].addEvent('click', function(e){
+					e.stop();
+					alert('[you triggered a click event]');
+				});
+				// initialize Nivoo-Slider
+				new NivooSlider($('rose_show'), {
+					directionNavPosition: 'outside',
+					effect: 'random',
+					interval: 5000,
+					orientation: 'random'
+				});
+			});
+
+		</script>
 	</head>
 
 	<body>
@@ -21,7 +45,26 @@
 			<main>
 				<div id="content">
 					<div class="innertube">
+						<div id="wrapper">
 						<h1>Welcome</h1>
+						<div id=rose_show class=nivoo-slider>
+						<a href='#'><img src='images/shows/rose_show/rose_show_1_20120607_1412767742.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2012_1_20120703_1131551518.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2012_1_20120703_1861649217.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2012_2_20120703_1710344941.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2012_2_20120703_1910084214.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2012_3_20120703_1462880831.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2012_3_20120703_1626405976.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_2_20120607_1645484482.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_3_20120607_1088116795.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_4_20120607_1943207360.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_5_20120607_1431982000.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_6_20120607_1862783021.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						<a href='#'><img src='images/shows/rose_show/rose_show_7_20120607_1346004675.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
+						</div>
+
+						</div>
+
 						<p>
               <p>We are a long established horticultural society and are affiliated to the Royal Horticultural Society   We have three shows a year: the spring show in March, the rose show on village day in June and the autumn show in September. We also have talks by speakers in the Memorial Hall, which are free to members, and outings to gardens. </p><p>Membership is an annual subscription of £10.00, due at the AGM</p>
             </p>
@@ -36,7 +79,7 @@
 					<div id="flowerhead"><h3>Main Menu</h3></div>
 
           <ul>
-					
+
 					<li><a href="index.html">Home</a></li>
           <li><a href="schedule.html">Schedule</a></li>
           <li><a href="shows.html">Shows</a></li>

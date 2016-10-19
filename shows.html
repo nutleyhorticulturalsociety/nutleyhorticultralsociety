@@ -19,7 +19,19 @@
 				alert('[you triggered a click event]');
 			});
 			// initialize Nivoo-Slider
-			new NivooSlider($('Slider'), {
+			new NivooSlider($('autumn_show'), {
+				directionNavPosition: 'outside',
+				effect: 'random',
+				interval: 5000,
+				orientation: 'random'
+			});
+			new NivooSlider($('autumn_show_2012'), {
+				directionNavPosition: 'outside',
+				effect: 'random',
+				interval: 5000,
+				orientation: 'random'
+			});
+			new NivooSlider($('rose_show'), {
 				directionNavPosition: 'outside',
 				effect: 'random',
 				interval: 5000,
@@ -58,14 +70,14 @@
 					</p>
 
 					<div id="wrapper">
-					<h1>shows autumn_show</h1>
-					<div id=Slider class=nivoo-slider>
+					<h1>shows : autumn show</h1>
+					<div id=autumn_show class=nivoo-slider>
 					<a href='#'><img src='images/shows/autumn_show/autumn_show_1_20120603_1282642995.jpg_600.jpg' alt='shows autumn_show' height='350' width='600' /></a>
 					</div>
 					</div>
 					<div id="wrapper">
-					<h1>shows autumn_show_2012</h1>
-					<div id=Slider class=nivoo-slider>
+					<h1>shows : autumn show 2012</h1>
+					<div id=autumn_show_2012 class=nivoo-slider>
 					<a href='#'><img src='images/shows/autumn_show_2012/autumn_show_2012_10_20120909_1759659018.jpg_600.jpg' alt='shows autumn_show_2012' height='350' width='600' /></a>
 					<a href='#'><img src='images/shows/autumn_show_2012/autumn_show_2012_11_20120909_1426338710.jpg_600.jpg' alt='shows autumn_show_2012' height='350' width='600' /></a>
 					<a href='#'><img src='images/shows/autumn_show_2012/autumn_show_2012_12_20120909_1646213399.jpg_600.jpg' alt='shows autumn_show_2012' height='350' width='600' /></a>
@@ -86,8 +98,8 @@
 					</div>
 					</div>
 					<div id="wrapper">
-					<h1>shows rose_show</h1>
-					<div id=Slider class=nivoo-slider>
+					<h1>shows :rose show</h1>
+					<div id=rose_show class=nivoo-slider>
 					<a href='#'><img src='images/shows/rose_show/rose_show_1_20120607_1412767742.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
 					<a href='#'><img src='images/shows/rose_show/rose_show_2012_1_20120703_1131551518.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
 					<a href='#'><img src='images/shows/rose_show/rose_show_2012_1_20120703_1861649217.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
