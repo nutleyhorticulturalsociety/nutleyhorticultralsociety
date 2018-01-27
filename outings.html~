@@ -23,7 +23,7 @@
 			<div id="content">
 				<div class="innertube">
 					<h1>Outings</h1>
-						<p>Evening outing on Tuesday 5th June 6.pm to Waren Lodge Boars Head, Crowborough shared transport from Memorial Hall car park</p>
+						<p>Evening outing on Tuesday 5th June 6.pm to Wareham Lodge Boars Head, Crowborough shared transport from Memorial Hall car park</p>
 						<p>Saturday 28th July at 1.30 pm t Lakeheath Farm shared transport fom Memorail Hall car park</p>
 				</div>
 			</div>
@@ -42,9 +42,10 @@
 					<li><a href="talks.html">Talks</a></li>
 					<li><a href="outings.html">Outings</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="contact.html">Contact Us</a></li>
 					<li><a href="committee.html">Committee</a></li>
 					<li><a href="links.html">Links</a></li>
+					<li><a href="bringandbuy.html">Bring and Buy</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
 				</ul>
 			</div>
 		</nav>
