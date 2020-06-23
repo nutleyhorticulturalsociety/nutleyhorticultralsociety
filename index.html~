@@ -49,6 +49,7 @@
 						<div id="wrapper">
 						<h1>Welcome</h1>
 						<div id=rose_show class=nivoo-slider>
+						<a href='#'><img src="images/Garden_Visits/Herstmonseux_2019/IMG_20190629_102755630_HDR_800.jpg" width="600" height="350" alt="shows rose_show"></a>
 						<a href='#'><img src='images/shows/rose_show/rose_show_1_20120607_1412767742.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
 						<a href='#'><img src='images/shows/rose_show/rose_show_2012_1_20120703_1131551518.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
 						<a href='#'><img src='images/shows/rose_show/rose_show_2012_1_20120703_1861649217.jpg_600.jpg' alt='shows rose_show' height='350' width='600' /></a>
@@ -82,14 +83,15 @@
           <ul>
 
 					<li><a href="index.html">Home</a></li>
-          <li><a href="schedule.html">Schedule</a></li>
-          <li><a href="shows.html">Shows</a></li>
-          <li><a href="talks.html">Talks</a></li>
-          <li><a href="outings.html">Outings</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <li><a href="committee.html">Committee</a></li>
-          <li><a href="links.html">Links</a></li>
+					<li><a href="schedule.html">Schedule</a></li>
+					<li><a href="shows.html">Shows</a></li>
+					<li><a href="talks.html">Talks</a></li>
+					<li><a href="outings.html">Outings</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="committee.html">Committee</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a href="bringandbuy.html">Bring and Buy</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
 					</ul>
 				</div>
 			</nav>
