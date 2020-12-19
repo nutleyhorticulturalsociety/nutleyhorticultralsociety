@@ -23,13 +23,9 @@
 			<div id="content">
 				<div class="innertube">
 					<h1>Outings</h1>
-						<p>
-APRIL Saturday 25th
-OUTING to Leonards Lee. Shared transport Leave at 11.am from car park
+						<p>APRIL Saturday 25th </p><p>
+						OUTING to Leonards Lee. Shared transport Leave at 11.am from car park
 Memorial Hall
-						</p>
-						<p>
-
 						</p>
 				</div>
 			</div>
@@ -47,6 +43,7 @@ Memorial Hall
 					<li><a href="shows.html">Shows</a></li>
 					<li><a href="talks.html">Talks</a></li>
 					<li><a href="outings.html">Outings</a></li>
+					<li><a href="workshop.html">Workshop</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
 					<li><a href="committee.html">Committee</a></li>
 					<li><a href="links.html">Links</a></li>
